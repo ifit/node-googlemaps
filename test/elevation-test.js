@@ -108,6 +108,20 @@ vows.describe('elevationFromPath when path is too long').addBatch({
 	}
 }).export(module);
 
+vows.describe('elevationFromPath when path is too long with polyline').addBatch({
+  'elevationFromPath when path is too long with polyline encoding': {
+		topic: function() {
+			gm.elevationFromPath(tooLongForGoogle, tooLongCount, this.callback, 'false');
+		},
+		'returns as a valid request': function(err, result){
+			assert.equal(result.status , 'OK');
+		},
+		'returns the expected number of samples': function(err, result){
+			assert.equal(result.results.length , tooLongCount);
+		}
+	}
+}).export(module);
+
 /* Elevation from path query results
 {
    "status":"OK",
