@@ -8,6 +8,11 @@
     "geo",
     "api"
   ],
+  "bundledDependencies": [
+    "request",
+    "waitress",
+    "vows"
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/moshen/node-googlemaps"
