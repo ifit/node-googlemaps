@@ -1,12 +1,12 @@
 # Google Maps API for Node.js
 A simple way to query the Google Maps API from Node.js
 
-This was a quick hack to work with Node.js.  Criticism/Suggestions/Patches/PullReq's welcome.
+This has become a fairly complete api.  Criticism/Suggestions/Patches/PullReq's welcome.
 
 # Installation
 ### Installing npm (node package manager)
 
-    curl http://npmjs.org/install.sh | sh
+    curl https://npmjs.org/install.sh | sh
 
 ### Installing googlemaps
 
