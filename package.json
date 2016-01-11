@@ -1,6 +1,7 @@
 {
-  "name": "googlemaps",
-  "version": "0.1.8",
+  "name": "ifit-googlemaps",
+  "private": true,
+  "version": "1.0.0",
   "main": "./lib/googlemaps",
   "description": "A simple way to query the Google Maps API from Node.js",
   "keywords": [
